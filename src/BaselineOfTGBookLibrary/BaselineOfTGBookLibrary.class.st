@@ -7,7 +7,6 @@ Class {
 { #category : #baselines }
 BaselineOfTGBookLibrary >> baseline: spec [ 
 	<baseline>
-	self openAPI: spec. 
 	spec 
 		for: #common 
 		do: [  
