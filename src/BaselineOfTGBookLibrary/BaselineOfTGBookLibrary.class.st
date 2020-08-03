@@ -22,9 +22,8 @@ BaselineOfTGBookLibrary >> baseline: spec [
 { #category : #'as yet unclassified' }
 BaselineOfTGBookLibrary >> openAPI: spec [ 
 	spec
-		with: [ 
-			spec
-				repository: 'https://github.com/zweidenker/OpenAPI/src' ]
+		baseline: 'OpenAPI'
+		with: [ spec repository: 'https://github.com/zweidenker/OpenAPI/src' ]
 ]
 
 { #category : #accessing }
